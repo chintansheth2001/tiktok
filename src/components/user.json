@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "msg": "success",
+  "processed_time": 0.5456,
+  "data": {
+    "user": {
+      "id": "107955",
+      "uniqueId": "tiktok",
+      "nickname": "TikTok",
+      "avatarThumb": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1971e99be0d67160f34f39fb1d66a0e5~c5_100x100.jpeg?x-expires=1678460400&x-signature=SSSvnk8LD5WTT1kNDVUN27S43cQ%3D",
+      "avatarMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1971e99be0d67160f34f39fb1d66a0e5~c5_720x720.jpeg?x-expires=1678460400&x-signature=ccK5%2BtFKWeTUtPGAu54AzDhJQG8%3D",
+      "avatarLarger": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1971e99be0d67160f34f39fb1d66a0e5~c5_1080x1080.jpeg?x-expires=1678460400&x-signature=ZVrX34YbPdVZNzJg2LSEnlmYfkQ%3D",
+      "signature": "munchies unite 🧊🌶️",
+      "verified": true,
+      "secUid": "MS4wLjABAAAAv7iSuuXDJGDvJkmH_vz1qkDZYo1apxgzaxdBSeIuPiM",
+      "secret": false,
+      "ftc": false,
+      "relation": 0,
+      "openFavorite": false,
+      "commentSetting": null,
+      "duetSetting": null,
+      "stitchSetting": null,
+      "privateAccount": false,
+      "isADVirtual": false,
+      "isUnderAge18": false,
+      "ins_id": "tiktok",
+      "twitter_id": "",
+      "youtube_channel_title": "TikTok",
+      "youtube_channel_id": "UChPd_WHrv3O-XAXXHLixs7g"
+    },
+    "stats": {
+      "followingCount": 574,
+      "followerCount": 68866964,
+      "heartCount": 287249931,
+      "videoCount": 597,
+      "diggCount": 0,
+      "heart": 287249931
+    }
+  }
+}

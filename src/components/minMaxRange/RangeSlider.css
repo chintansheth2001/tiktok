@@ -1,0 +1,124 @@
+:root {
+  --thumbsize: 16px;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+  margin: 10px calc(var(--thumbsize) / 2);
+  
+  height: var(--thumbsize);
+
+}
+
+.input-wrapper {
+  width: calc(100% + var(--thumbsize));
+  margin: 0 calc(var(--thumbsize) / -2);
+  position: absolute;
+  height: var(--thumbsize);
+}
+
+.control-wrapper {
+  width: 100%;
+  position: absolute;
+  height: var(--thumbsize);
+}
+
+.input {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  appearance: none;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+  padding: 0;
+};
+
+
+.input::-ms-track {
+  appearance: none;
+}
+
+.input::-moz-range-track {
+    background: transparent;
+}
+
+.input:focus::-webkit-slider-runnable-track {
+    border: transparent;
+}
+
+.input::-ms-thumb {
+  appearance: none;
+  pointer-events: all;
+  width: var(--thumbsize);
+  height: var(--thumbsize);
+  border-radius: 0px;
+  border: 0 none;
+  cursor: grab;
+  background-color: red;
+}
+
+.input::-moz-range-thumb {
+  appearance: none;
+  pointer-events: all;
+  width: var(--thumbsize);
+  height: var(--thumbsize);
+  border-radius: 0px;
+  border: 0 none;
+  cursor: grab;
+  background-color: red;
+}
+
+.input::-webkit-slider-thumb {
+  appearance: none;
+  pointer-events: all;
+  width: var(--thumbsize);
+  height: var(--thumbsize);
+  border-radius: 0px;
+  border: 0 none;
+  cursor: grab;
+  background-color: red;
+}
+
+
+.rail {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  border-radius: 3px;
+  background: lightgrey;
+}
+
+.inner-rail {
+  position: absolute;
+  height: 100%;
+  background: #14b8a6;
+  opacity: 0.5;
+}
+
+.control {
+  width: var(--thumbsize);
+  height: var(--thumbsize);
+  border-radius: 50%;
+  position: absolute;
+  background: #14b8a6;
+  top: 50%;
+  margin-left: calc( var(--thumbsize) / -2);
+  transform: translate3d(0, -50%, 0);
+  z-index: 2;
+}
+
+.min-max-cover{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.main-slider{
+  margin-bottom: 16px;
+}
